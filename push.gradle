@@ -16,3 +16,9 @@ android {
         applicationId = doExtractStringFromManifest("package")
     }
 }
+
+repositories {
+  maven {
+      url "https://maven.google.com"
+  }
+}
